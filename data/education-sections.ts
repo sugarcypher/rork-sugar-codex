@@ -38,6 +38,12 @@ export const educationSections: EducationSection[] = [
     description: 'All health matters influenced by sugar consumption'
   },
   {
+    id: 'blood-pressure',
+    title: 'Sugar & High Blood Pressure: The Hidden Connection',
+    emoji: '🫀',
+    description: 'How sugar and AGEs create structural hypertension through multiple pathways'
+  },
+  {
     id: 'hidden-truth',
     title: 'What They Don\'t Want You to Know About Sugar',
     emoji: '🚨',

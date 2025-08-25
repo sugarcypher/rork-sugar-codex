@@ -403,6 +403,205 @@ export default function EducationScreen() {
         </View>
         
         <View style={[styles.section, shadows.small]}>
+          <Text style={styles.sectionTitle}>🫀 Sugar & High Blood Pressure: The Hidden Connection</Text>
+          <Text style={styles.text}>
+            Most people know sugar causes diabetes, but few understand how sugar creates high blood pressure through multiple interconnected pathways. This isn't just about weight gain—sugar directly damages your cardiovascular system at the molecular level.
+          </Text>
+          
+          <View style={styles.bpSection}>
+            <Text style={styles.bpSectionTitle}>🔄 Pathway 1: Acute Sugar → Insulin → Vascular Stress</Text>
+            <View style={styles.bpMechanismList}>
+              <View style={styles.bpMechanism}>
+                <Text style={styles.bpMechanismStep}>1. Sugar Spike</Text>
+                <Text style={styles.bpMechanismText}>Blood glucose rises rapidly after sugar consumption</Text>
+              </View>
+              <View style={styles.bpMechanism}>
+                <Text style={styles.bpMechanismStep}>2. Insulin Surge</Text>
+                <Text style={styles.bpMechanismText}>Pancreas releases massive insulin to clear glucose</Text>
+              </View>
+              <View style={styles.bpMechanism}>
+                <Text style={styles.bpMechanismStep}>3. Sodium Retention</Text>
+                <Text style={styles.bpMechanismText}>Insulin signals kidneys to retain sodium and water</Text>
+              </View>
+              <View style={styles.bpMechanism}>
+                <Text style={styles.bpMechanismStep}>4. Sympathetic Activation</Text>
+                <Text style={styles.bpMechanismText}>Nervous system increases heart rate and vascular tone</Text>
+              </View>
+              <View style={styles.bpMechanism}>
+                <Text style={styles.bpMechanismStep}>5. Blood Pressure Rise</Text>
+                <Text style={styles.bpMechanismText}>More fluid + tighter vessels = higher pressure</Text>
+              </View>
+            </View>
+            <Text style={styles.bpInsight}>💡 <Text style={styles.bpInsightBold}>Key Insight:</Text> This happens within 30-60 minutes of sugar consumption and can last 2-5 hours.</Text>
+          </View>
+          
+          <View style={styles.bpSection}>
+            <Text style={styles.bpSectionTitle}>⚡ Pathway 2: Insulin Resistance → Chronic Hypertension</Text>
+            <Text style={styles.bpText}>
+              With repeated sugar exposure, your cells become insulin resistant. This creates a dangerous paradox:
+            </Text>
+            <View style={styles.bpParadoxList}>
+              <Text style={styles.bpParadoxItem}>• <Text style={styles.bpParadoxBold}>Vasodilation LOST:</Text> Insulin's beneficial effects (nitric oxide production, vessel relaxation) are blunted</Text>
+              <Text style={styles.bpParadoxItem}>• <Text style={styles.bpParadoxBold}>Hypertensive Effects PERSIST:</Text> Sodium retention and sympathetic activation continue</Text>
+              <Text style={styles.bpParadoxItem}>• <Text style={styles.bpParadoxBold}>Compensatory Hyperinsulinemia:</Text> Body produces even more insulin, amplifying the problem</Text>
+            </View>
+            <Text style={styles.bpInsight}>⚠️ <Text style={styles.bpInsightBold}>Result:</Text> You get all the blood pressure-raising effects with none of the protective benefits.</Text>
+          </View>
+          
+          <View style={styles.bpSection}>
+            <Text style={styles.bpSectionTitle}>🧪 Pathway 3: AGEs → Endothelial Dysfunction</Text>
+            <Text style={styles.bpText}>
+              Advanced Glycation End Products (AGEs) form when sugar binds to proteins in your blood vessels:
+            </Text>
+            <View style={styles.bpAgesList}>
+              <View style={styles.bpAgeItem}>
+                <Text style={styles.bpAgeTitle}>RAGE Receptor Activation</Text>
+                <Text style={styles.bpAgeText}>AGEs bind to RAGE receptors on vessel walls, triggering inflammatory cascades</Text>
+              </View>
+              <View style={styles.bpAgeItem}>
+                <Text style={styles.bpAgeTitle}>Oxidative Stress Explosion</Text>
+                <Text style={styles.bpAgeText}>RAGE activation generates reactive oxygen species, damaging vessel lining</Text>
+              </View>
+              <View style={styles.bpAgeItem}>
+                <Text style={styles.bpAgeTitle}>Nitric Oxide Depletion</Text>
+                <Text style={styles.bpAgeText}>Oxidative stress destroys nitric oxide—your body's natural vasodilator</Text>
+              </View>
+              <View style={styles.bpAgeItem}>
+                <Text style={styles.bpAgeTitle}>Endothelial Stiffening</Text>
+                <Text style={styles.bpAgeText}>Vessel walls lose flexibility and ability to regulate blood flow</Text>
+              </View>
+            </View>
+            <Text style={styles.bpInsight}>🔬 <Text style={styles.bpInsightBold}>Clinical Evidence:</Text> AGE levels directly correlate with pulse pressure and arterial stiffness.</Text>
+          </View>
+          
+          <View style={styles.bpSection}>
+            <Text style={styles.bpSectionTitle}>🏗️ Pathway 4: Vascular Remodeling & Structural Damage</Text>
+            <Text style={styles.bpText}>
+              Sugar doesn't just affect blood pressure temporarily—it permanently remodels your cardiovascular system:
+            </Text>
+            <View style={styles.bpRemodelingList}>
+              <Text style={styles.bpRemodelingItem}>• <Text style={styles.bpRemodelingBold}>Collagen Cross-linking:</Text> AGEs create irreversible bonds between collagen fibers in artery walls</Text>
+              <Text style={styles.bpRemodelingItem}>• <Text style={styles.bpRemodelingBold}>Elastin Degradation:</Text> Sugar damages elastin—the protein that gives arteries their stretch</Text>
+              <Text style={styles.bpRemodelingItem}>• <Text style={styles.bpRemodelingBold}>Arterial Stiffening:</Text> Vessels become rigid pipes instead of flexible tubes</Text>
+              <Text style={styles.bpRemodelingItem}>• <Text style={styles.bpRemodelingBold}>Pulse Pressure Widening:</Text> Systolic rises, diastolic may drop—classic sign of vascular aging</Text>
+            </View>
+            <Text style={styles.bpInsight}>📊 <Text style={styles.bpInsightBold}>Shocking Fact:</Text> A 40-year-old with high sugar intake can have arteries that function like those of a 70-year-old.</Text>
+          </View>
+          
+          <View style={styles.bpSection}>
+            <Text style={styles.bpSectionTitle}>🔥 Pathway 5: Inflammation & Kidney Damage</Text>
+            <Text style={styles.bpText}>
+              Sugar creates a perfect storm of inflammation that specifically targets your kidneys:
+            </Text>
+            <View style={styles.bpKidneyList}>
+              <View style={styles.bpKidneyItem}>
+                <Text style={styles.bpKidneyTitle}>Microvascular Injury</Text>
+                <Text style={styles.bpKidneyText}>AGEs damage tiny blood vessels in kidney filters (glomeruli)</Text>
+              </View>
+              <View style={styles.bpKidneyItem}>
+                <Text style={styles.bpKidneyTitle}>Filtration Decline</Text>
+                <Text style={styles.bpKidneyText}>Damaged kidneys can't efficiently remove waste and excess fluid</Text>
+              </View>
+              <View style={styles.bpKidneyItem}>
+                <Text style={styles.bpKidneyTitle}>RAAS Activation</Text>
+                <Text style={styles.bpKidneyText}>Kidneys activate renin-angiotensin system as compensation</Text>
+              </View>
+              <View style={styles.bpKidneyItem}>
+                <Text style={styles.bpKidneyTitle}>Vasoconstriction + Retention</Text>
+                <Text style={styles.bpKidneyText}>Angiotensin II constricts vessels while aldosterone retains sodium</Text>
+              </View>
+            </View>
+            <Text style={styles.bpInsight}>⚠️ <Text style={styles.bpInsightBold}>Vicious Cycle:</Text> High blood pressure further damages kidneys, creating a self-perpetuating cycle.</Text>
+          </View>
+          
+          <View style={styles.bpSection}>
+            <Text style={styles.bpSectionTitle}>📈 The Timeline: From Sweet to Hypertensive</Text>
+            <View style={styles.bpTimelineList}>
+              <View style={styles.bpTimelineItem}>
+                <Text style={styles.bpTimelineTime}>Minutes</Text>
+                <Text style={styles.bpTimelineEvent}>Blood pressure spikes from insulin and sympathetic activation</Text>
+              </View>
+              <View style={styles.bpTimelineItem}>
+                <Text style={styles.bpTimelineTime}>Hours</Text>
+                <Text style={styles.bpTimelineEvent}>Inflammatory markers rise, endothelial function declines</Text>
+              </View>
+              <View style={styles.bpTimelineItem}>
+                <Text style={styles.bpTimelineTime}>Days-Weeks</Text>
+                <Text style={styles.bpTimelineEvent}>Insulin resistance develops, baseline pressure creeps up</Text>
+              </View>
+              <View style={styles.bpTimelineItem}>
+                <Text style={styles.bpTimelineTime}>Months</Text>
+                <Text style={styles.bpTimelineEvent}>AGE accumulation begins, vessel stiffness increases</Text>
+              </View>
+              <View style={styles.bpTimelineItem}>
+                <Text style={styles.bpTimelineTime}>Years</Text>
+                <Text style={styles.bpTimelineEvent}>Structural remodeling complete—hypertension becomes "essential"</Text>
+              </View>
+            </View>
+          </View>
+          
+          <View style={styles.bpSection}>
+            <Text style={styles.bpSectionTitle}>🎯 High-Risk Sugar Sources for Blood Pressure</Text>
+            <View style={styles.bpRiskList}>
+              <View style={styles.bpRiskCategory}>
+                <Text style={styles.bpRiskTitle}>🚨 Highest Risk (Immediate BP Spikes)</Text>
+                <Text style={styles.bpRiskItem}>• Sugary drinks (soda, energy drinks, sweet tea)</Text>
+                <Text style={styles.bpRiskItem}>• Liquid fructose (fruit juices, smoothies)</Text>
+                <Text style={styles.bpRiskItem}>• High-fructose corn syrup products</Text>
+                <Text style={styles.bpRiskItem}>• Candy and pure sugar snacks</Text>
+              </View>
+              <View style={styles.bpRiskCategory}>
+                <Text style={styles.bpRiskTitle}>⚠️ Moderate Risk (Chronic Elevation)</Text>
+                <Text style={styles.bpRiskItem}>• Processed foods with hidden sugars</Text>
+                <Text style={styles.bpRiskItem}>• Refined grains (white bread, pasta)</Text>
+                <Text style={styles.bpRiskItem}>• Desserts and baked goods</Text>
+                <Text style={styles.bpRiskItem}>• Breakfast cereals and bars</Text>
+              </View>
+            </View>
+          </View>
+          
+          <View style={styles.bpSection}>
+            <Text style={styles.bpSectionTitle}>🛡️ Protection Strategies</Text>
+            <View style={styles.bpProtectionList}>
+              <View style={styles.bpProtectionCategory}>
+                <Text style={styles.bpProtectionTitle}>🥗 Dietary Interventions</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Fiber + Sugar:</Text> Always pair sugary foods with fiber to slow absorption</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Protein Buffering:</Text> Eat protein before carbs to blunt glucose spikes</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Vinegar Power:</Text> 1-2 tbsp vinegar before meals reduces post-meal BP spikes</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Potassium Foods:</Text> Bananas, spinach, avocados help counter sodium retention</Text>
+              </View>
+              <View style={styles.bpProtectionCategory}>
+                <Text style={styles.bpProtectionTitle}>💊 Targeted Supplements</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Magnesium:</Text> 400-600mg daily—natural calcium channel blocker</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Berberine:</Text> 500mg 2x daily—improves insulin sensitivity</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Alpha-Lipoic Acid:</Text> 300-600mg daily—prevents AGE formation</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Taurine:</Text> 2-3g daily—supports healthy blood pressure</Text>
+              </View>
+              <View style={styles.bpProtectionCategory}>
+                <Text style={styles.bpProtectionTitle}>🏃 Lifestyle Factors</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Post-Meal Walks:</Text> 10-15 minutes after eating reduces glucose spikes by 20-30%</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Intermittent Fasting:</Text> Gives insulin receptors time to recover sensitivity</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Stress Management:</Text> Chronic stress amplifies sugar's hypertensive effects</Text>
+                <Text style={styles.bpProtectionItem}>• <Text style={styles.bpProtectionBold}>Quality Sleep:</Text> Poor sleep increases insulin resistance and BP</Text>
+              </View>
+            </View>
+          </View>
+          
+          <View style={styles.bpWarningSection}>
+            <Text style={styles.bpWarningTitle}>🚨 The Hidden Truth About "Essential" Hypertension</Text>
+            <Text style={styles.bpWarningText}>
+              95% of high blood pressure cases are labeled "essential hypertension"—meaning "cause unknown." But this is medical gaslighting. The cause is clear: decades of sugar-induced vascular damage.
+            </Text>
+            <Text style={styles.bpWarningText}>
+              Your doctor will prescribe ACE inhibitors, diuretics, and calcium channel blockers—all treating symptoms while ignoring the root cause. Meanwhile, every sugary meal continues the assault on your cardiovascular system.
+            </Text>
+            <Text style={styles.bpWarningText}>
+              <Text style={styles.bpWarningBold}>The real solution:</Text> Address the sugar. Everything else is just expensive band-aids on a metabolic fire.
+            </Text>
+          </View>
+        </View>
+        
+        <View style={[styles.section, shadows.small]}>
           <Text style={styles.sectionTitle}>🚨 What They Don't Want You to Know About Sugar</Text>
           <Text style={styles.text}>
             The sugar industry has spent decades manipulating science, suppressing research, and hijacking your brain's reward system. Here's the hidden truth:
@@ -1179,5 +1378,218 @@ const styles = StyleSheet.create({
     color: colors.text,
     lineHeight: 20,
     marginBottom: 12,
+  },
+  // Blood Pressure Section Styles
+  bpSection: {
+    marginBottom: 20,
+    paddingBottom: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: colors.border,
+  },
+  bpSectionTitle: {
+    fontSize: 16,
+    fontWeight: '700' as const,
+    color: colors.primary,
+    marginBottom: 8,
+  },
+  bpText: {
+    fontSize: 14,
+    color: colors.text,
+    lineHeight: 20,
+    marginBottom: 12,
+  },
+  bpMechanismList: {
+    marginTop: 8,
+  },
+  bpMechanism: {
+    flexDirection: 'row',
+    marginBottom: 12,
+    alignItems: 'flex-start',
+    backgroundColor: colors.primaryLight + '10',
+    padding: 12,
+    borderRadius: 8,
+  },
+  bpMechanismStep: {
+    fontSize: 14,
+    fontWeight: '700' as const,
+    color: colors.primary,
+    minWidth: 120,
+    marginRight: 12,
+  },
+  bpMechanismText: {
+    flex: 1,
+    fontSize: 14,
+    color: colors.text,
+    lineHeight: 20,
+  },
+  bpInsight: {
+    fontSize: 13,
+    color: colors.primary,
+    fontStyle: 'italic',
+    backgroundColor: colors.primaryLight + '20',
+    padding: 8,
+    borderRadius: 6,
+    marginTop: 8,
+  },
+  bpInsightBold: {
+    fontWeight: '700' as const,
+    color: colors.primary,
+  },
+  bpParadoxList: {
+    marginTop: 8,
+  },
+  bpParadoxItem: {
+    fontSize: 14,
+    color: colors.text,
+    lineHeight: 20,
+    marginBottom: 8,
+  },
+  bpParadoxBold: {
+    fontWeight: '600' as const,
+    color: colors.bad,
+  },
+  bpAgesList: {
+    marginTop: 8,
+  },
+  bpAgeItem: {
+    marginBottom: 12,
+    backgroundColor: colors.primaryLight + '10',
+    padding: 12,
+    borderRadius: 8,
+  },
+  bpAgeTitle: {
+    fontSize: 14,
+    fontWeight: '600' as const,
+    color: colors.primary,
+    marginBottom: 4,
+  },
+  bpAgeText: {
+    fontSize: 13,
+    color: colors.text,
+    lineHeight: 18,
+  },
+  bpRemodelingList: {
+    marginTop: 8,
+  },
+  bpRemodelingItem: {
+    fontSize: 14,
+    color: colors.text,
+    lineHeight: 20,
+    marginBottom: 8,
+  },
+  bpRemodelingBold: {
+    fontWeight: '600' as const,
+    color: colors.bad,
+  },
+  bpKidneyList: {
+    marginTop: 8,
+  },
+  bpKidneyItem: {
+    marginBottom: 12,
+    backgroundColor: colors.primaryLight + '10',
+    padding: 12,
+    borderRadius: 8,
+  },
+  bpKidneyTitle: {
+    fontSize: 14,
+    fontWeight: '600' as const,
+    color: colors.primary,
+    marginBottom: 4,
+  },
+  bpKidneyText: {
+    fontSize: 13,
+    color: colors.text,
+    lineHeight: 18,
+  },
+  bpTimelineList: {
+    marginTop: 8,
+  },
+  bpTimelineItem: {
+    flexDirection: 'row',
+    marginBottom: 12,
+    alignItems: 'flex-start',
+  },
+  bpTimelineTime: {
+    fontSize: 14,
+    fontWeight: '700' as const,
+    color: colors.primary,
+    minWidth: 80,
+    marginRight: 12,
+  },
+  bpTimelineEvent: {
+    flex: 1,
+    fontSize: 14,
+    color: colors.text,
+    lineHeight: 20,
+  },
+  bpRiskList: {
+    marginTop: 8,
+  },
+  bpRiskCategory: {
+    marginBottom: 16,
+    backgroundColor: colors.primaryLight + '10',
+    padding: 12,
+    borderRadius: 8,
+  },
+  bpRiskTitle: {
+    fontSize: 14,
+    fontWeight: '700' as const,
+    color: colors.bad,
+    marginBottom: 8,
+  },
+  bpRiskItem: {
+    fontSize: 13,
+    color: colors.text,
+    lineHeight: 18,
+    marginBottom: 4,
+  },
+  bpProtectionList: {
+    marginTop: 8,
+  },
+  bpProtectionCategory: {
+    marginBottom: 16,
+    backgroundColor: colors.good + '10',
+    padding: 12,
+    borderRadius: 8,
+  },
+  bpProtectionTitle: {
+    fontSize: 14,
+    fontWeight: '700' as const,
+    color: colors.good,
+    marginBottom: 8,
+  },
+  bpProtectionItem: {
+    fontSize: 13,
+    color: colors.text,
+    lineHeight: 18,
+    marginBottom: 6,
+  },
+  bpProtectionBold: {
+    fontWeight: '600' as const,
+    color: colors.good,
+  },
+  bpWarningSection: {
+    marginTop: 16,
+    padding: 16,
+    backgroundColor: colors.bad + '15',
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: colors.bad + '40',
+  },
+  bpWarningTitle: {
+    fontSize: 16,
+    fontWeight: '700' as const,
+    color: colors.bad,
+    marginBottom: 12,
+  },
+  bpWarningText: {
+    fontSize: 14,
+    color: colors.text,
+    lineHeight: 20,
+    marginBottom: 12,
+  },
+  bpWarningBold: {
+    fontWeight: '700' as const,
+    color: colors.bad,
   },
 });
